@@ -1,0 +1,474 @@
+/*responsive*/
+@media (max-width : 1200px) 
+{
+    h4.fc_dark ,.pfontsize 
+    {
+        font-size:12px;
+    }
+    /*all products cateog and details lomg pannel*/
+    .all_products_catelog .clr.row>.fl 
+    {
+        width: 45%;
+    }
+
+    .all_products_catelog .clr.row>.fl:nth-child(2) 
+    {
+        margin-left: 10%;margin-right: 0%;
+    }
+
+    .all_products_catelog .clr.row>.fl:nth-child(3) 
+    {
+        margin-right: 10%;margin-left: 0%
+    }
+    .shorting-products-contents .clr 
+    {
+        width: 100%;text-align: center;
+    }
+/*shorting products heading*/
+    .shorting-products-contents
+    {
+        display: block;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:first-child
+    {
+        margin-left: 32%;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:last-child
+    {
+        width: 50%;
+        text-align: center;
+        margin-left: 23%;
+    }
+
+    .shorting-products-headings h3:after 
+    {
+        width: 23%;
+    }
+
+    .shorting-products-headings h3:before 
+    {
+        width: 23%;
+        background:#e2e2e2;
+        height: 2px;
+        top: 20px;
+    }
+
+    .shorting-products-headings h3 
+    {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .ht_slider_slides_wraper 
+    {
+        height: 450px;
+    }
+
+    .slider_content_text 
+    {
+        padding: 100px 0px;
+    }
+
+    .slider_offers.wdth_ht_cont
+    {
+        margin-top:0px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl:first-child 
+    {
+        padding: 0px; font-size: 10px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl>span
+    {
+        font-size: 7px;margin-bottom: 1px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl>span:last-child 
+    {
+        font-size: 6px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl 
+    {
+        padding: 0px 5px;
+    }
+
+
+}
+
+@media (max-width : 1000px) 
+{
+
+    /*main layout*/
+    .wdth_ht_cont 
+    {
+     width: 75%; margin: auto;
+    }
+
+    /*button*/
+    .htbtn 
+    {
+        padding: 6px 20px; font-size: 10px;
+    }
+
+    /*top heading my account cart*/
+    .top_head div>.fl 
+    {
+        font-size: 8px;
+    }
+
+    /*navigations*/
+    .ht_nav>div ul 
+    {
+        width: 80%;
+    }
+
+    .ht_nav>div>div 
+    {
+        width: 10%;
+    }
+
+    .ht_nav li 
+    {
+     padding: 8px 4px;
+    }
+
+    .nav_span 
+    {
+     font-size: 10px;
+    }
+
+    /*perv nextbut*/
+    .prevbut, .nextbut 
+    {
+        font-size: 25px;
+    }
+
+    /*slider contents*/
+    .slider_content_text 
+    {
+        height: unset; margin: 0px 20%;padding: 30px 0px;
+    }
+
+    .slider_content_text>div:first-child 
+    {
+        line-height: 28px;
+    }
+
+    .slider_content_text>div h2 
+    {
+        font-size: 20px;
+    }
+
+    .slider_content_text>div p 
+    {
+        font-size: 10px;
+    }
+
+    .slider_offers.wdth_ht_cont
+    {
+        margin-top:30px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl:first-child 
+    {
+        padding: 0px; font-size: 10px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl>span
+    {
+        font-size: 7px;margin-bottom: 1px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl>.clr .fl>span:last-child 
+    {
+        font-size: 6px;
+    }
+
+    .slider_offers>.clr:first-child>div.fl 
+    {
+        padding: 0px 5px;
+    }
+
+    .ht_slider_slides_wraper 
+    {
+        height: 250px;
+    }
+
+    /*products for*/
+    .produsts_for .clr.row.threecol
+    {
+        width: 60%;margin: auto;
+    }
+
+    .cat-womens>div:first-child img, .cat-mens>div:first-child img, .cat-shoes>div:first-child img 
+    {
+     width: 100%; max-height: 200px;
+    }
+
+    .cat-womens>div:first-child, .cat-mens>div:first-child, .cat-shoes>div:first-child 
+    {
+        max-height: 200px;
+    }
+
+    .cat-womens:hover .cat-womens-tag, .cat-mens:hover .cat-mens-tag, .cat-shoes:hover .cat-shoes-tag 
+    {
+        height: 100%; line-height: 9;
+    }
+
+
+    .pmenu-right 
+    {
+        display: none;
+    }
+
+    .pmenu-left 
+    {
+     width: 90%;margin: auto;float: unset;
+    }
+
+    /*all product menu*/
+    .all_product_menu
+    {
+        width: 90%;margin:auto;
+    }
+
+    .all_product_menu>div:first-child
+    {
+        padding:5px 0px;
+    }
+
+    .all_product_menu .clr.row ul li 
+    {
+        font-size: 10px; width: 20%; margin: 0;text-align: center;
+    }
+    /*numbers on power of menues*/
+    .all_product_menu .clr.row ul li>span
+    {
+        display: none;
+    }
+
+    .all_products_catelog .clr.row>.fl 
+    {
+        width: 45%;
+    }
+
+    .all_products_catelog .clr.row>.fl:nth-child(2) 
+    {
+        margin-left: 10%;margin-right: 0%;
+    }
+
+    .all_products_catelog .clr.row>.fl:nth-child(3) 
+    {
+        margin-right: 10%;margin-left: 0%
+    }
+
+    .threecol>div.fl 
+    {
+        width: 100%;margin: 10px 0% !important;
+    }
+
+    /*products shortings*/
+    h4.fc_dark,.pfontsize
+    {
+        font-size: 12px;
+    }
+
+    /*products shorting in short details*/
+    .shorting-products-contents .clr 
+    {
+        width: 100%;text-align: center;
+    }
+
+    .shorting-products-contents
+    {
+        display: flex;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:first-child
+    {
+        margin-left: 30%;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:last-child
+    {
+        height: unset;width: 100%;
+    }
+
+    .shorting-products-headings h3:after 
+    {
+        width: 25%;
+    }
+
+    .shorting-products-headings h3:before 
+    {
+        width: 25%;background:#e2e2e2;height: 2px;top: 20px;
+    }
+
+    .shorting-products-headings h3 
+    {
+        text-align: center;
+    }
+
+    /*logos*/
+    .ht-partners-logos-child > div:first-child > div 
+    {
+     line-height: 2;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(6) img
+    {
+        width:53px;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(1) img
+    {
+        width:40px;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(2) img
+    {
+        width:49px;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(3) img
+    {
+        width:52px;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(4) img
+    {
+        width:55px;
+    }
+
+    .ht-partners-logos-child div:first-child div:nth-child(5) img
+    {
+        width:56px;
+    }
+
+    /*footer section*/
+    .ht-footer-child>div.fl
+    {
+        width:100%!important;display:block;text-align: center;float:unset;margin:10px 0!important;
+    }
+
+    .ht-footer-child>div.fl:last-child
+    {
+        display: flex;justify-content: center;
+    }
+
+    .ht-footer-child>div.fl:last-child>p:nth-child(even)
+    {
+        margin-left: 55px; margin-right: 55px;
+    }
+
+    .ht-footer-child
+    {
+        padding: 20px 0px;
+    }
+
+
+}
+
+
+@media (max-width : 700px) 
+{
+
+    .produsts_for .clr.row.threecol
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    .all_product_menu .clr.row ul
+    {
+        display:inline-block;
+    }
+
+    .all_product_menu .clr.row ul li 
+    {
+        font-size: 9px;width: fit-content;margin-left: 16px;display: inline-block;
+    }
+
+    .all_product_menu .clr.row ul li>span 
+    {
+        display: none;
+    }
+
+    .ht_nav>div>div 
+    {
+        display: none;
+    }
+
+    .ht_nav>div>ul
+    {
+        float: unset;width: 100%;
+    }
+
+    .slider_offers.wdth_ht_cont
+    {
+        display: none;
+    }
+
+    h4.fc_dark,.pfontsize
+    {
+        font-size: 6px;
+    }
+
+    .slider_content_text>div p 
+    {
+        font-size: 9px;
+    }
+
+    .slider_content_text 
+    {
+        padding: 80px 0px;
+    }
+
+    h4.fc_dark,.pfontsize
+    {
+        font-size: 12px;
+    }
+
+    .shorting-products-contents
+    {
+        display: block;
+    }
+
+    .shorting-products-contents .clr 
+    {
+        width: 50%;text-align: center;float: left;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:first-child
+    {
+        margin-left: 30%;
+    }
+
+    .shorting-products-contents>div.clr > div.fl:last-child
+    {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .shorting-products-headings h3:after 
+    {
+        width: 25%;
+    }
+
+    .shorting-products-headings h3:before 
+    {
+        width: 25%;background:#e2e2e2;height: 2px;top: 20px;
+    }
+
+    .shorting-products-headings h3 
+    {
+        text-align: center;
+    }
+
+
+
+}

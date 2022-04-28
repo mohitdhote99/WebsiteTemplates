@@ -1,0 +1,196 @@
+/*keyframes animation*/
+.slider_offers,
+.slider_content_text,
+.all_products_catelog .clr.row,
+.all_product_menu,
+.ht-footer-child>div.fl,
+.shorting-products>div>div.fl,
+.ht-partners-logos-child > div:first-child > div
+{
+    opacity: 0;overflow: hidden;
+}
+
+.active .active.slide .slider_content_text
+{
+    animation: translates_left 3s ease 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.active .slider_offers
+{
+
+    animation: translates_bottom 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.cat-womens,.cat-shoes,.cat-mens
+{
+    opacity: 0;
+}
+
+.active .cat-womens
+{
+
+    animation: translates_left 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .cat-shoes
+{
+
+    animation: scaleszero_to_one 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .cat-mens
+{
+
+    animation: translates_right 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .all_product_menu
+{
+
+    animation: scaleszero_to_one 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .all_products_catelog .clr.row:nth-child(even)
+{
+
+    animation: translates_left 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .all_products_catelog .clr.row:nth-child(odd)
+{
+
+    animation: translates_right 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active.shorting-products>div>div.fl
+{
+
+    animation: scaleszero_to_one 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .ht-partners-logos-child > div:first-child > div
+{
+
+    animation: translates_left 3s ease 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.active .ht-footer-child>div.fl:nth-child(even)
+{
+    animation: scaleszero_to_one 3s ease 0.5s; animation-fill-mode: forwards;
+}
+
+.active .ht-footer-child>div.fl:first-child
+{
+    animation: translates_left 3s ease 0.5s; animation-fill-mode: forwards;
+}
+
+.active .ht-footer-child>div.fl:last-child
+{
+    animation: translates_right 3s ease 0.5s; animation-fill-mode: forwards;
+}
+
+@keyframes translates_left
+{
+
+    0%
+    {
+
+        opacity: 0;
+        transform:translate(-50em, 0);
+    
+    }
+    100%
+    {
+
+        opacity: 1;
+        transform: translate(0, 0);
+    
+    }
+
+
+}
+
+@keyframes translates_bottom
+{
+
+    0%
+    {
+
+        opacity: 0;
+        transform: translate(0, 10em);
+    
+    }
+    100%
+    {
+
+        opacity: 1;
+        transform: translate(0, 0);
+    
+    }
+
+
+
+}
+
+@keyframes translates_right
+{
+
+    0%
+    {
+
+        opacity: 0;
+        transform: translate(50em, 0);
+    
+    }
+    100%
+    {
+
+        opacity: 1;
+        transform: translate(0, 0);
+    
+    }
+
+
+
+}
+
+@keyframes scaleszero_to_one
+{
+
+    0%
+    {
+
+        opacity: 0;
+        transform: scale(0);
+    
+    }
+    100%
+    {
+
+        opacity: 1;
+        transform: scale(1);
+    
+    }
+
+
+
+}
